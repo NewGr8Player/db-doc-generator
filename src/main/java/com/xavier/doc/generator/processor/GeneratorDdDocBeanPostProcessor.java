@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 @Component
 public class GeneratorDdDocBeanPostProcessor implements ApplicationListener<ContextRefreshedEvent> {
 
-	@Resource
+	@Autowired
 	private GeneratorService generatorService;
 
 	@Override
