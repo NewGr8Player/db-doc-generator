@@ -1,0 +1,11 @@
+application: 
+  db:
+    generator:
+      target: D:\jlxf.doc ##生成文件放置位置
+    type: mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.189.40:3306/jlxf?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: sxkj0818web
